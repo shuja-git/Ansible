@@ -8,4 +8,4 @@
         msg: Hello from Playbook Task1- {{a}}
     - name: Task2
       ansible.builtin.debug:
-        msg: {{a}}, 'Hello from Playbook Task2'
+        msg:  'Hello from Playbook Task2'
