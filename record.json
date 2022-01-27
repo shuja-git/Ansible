@@ -1,0 +1,18 @@
+{
+  "Comment": "Create/Delete/UPSERT a record ",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "COMPONENT",
+        "Type": "A",
+        "TTL": 10,
+        "ResourceRecords": [
+          {
+            "Value": "IPADDRESS"
+          }
+        ]
+      }
+    }
+  ]
+}
